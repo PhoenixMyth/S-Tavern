@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to S-Tavern Community!">
-    <title>S-Tavern</title>
+    <meta name="description" content="Welcome to S-Tavern Community! Join us for fun, events, and an awesome shop.">
+    <title>S-Tavern Community</title>
     <style>
         /* General Styles */
         body {
@@ -20,6 +20,7 @@
             padding: 20px;
             text-align: center;
             border-bottom: 2px solid #ff4500; /* Fiery orange border */
+            position: relative;
         }
         header h1 {
             margin: 0;
@@ -28,6 +29,17 @@
         }
         header p {
             font-size: 1.2em;
+        }
+
+        /* QR Code in top right corner */
+        .qr-code {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 100px; /* Adjust size as needed */
+            height: 100px;
+            border: 2px solid white;
+            border-radius: 5px;
         }
         
         .section {
@@ -110,8 +122,10 @@
 <div class="fire-bg"></div>
 
 <header>
-    <h1>Welcome to S-Tavern!</h1>
-    <p>Work in Progress</p>
+    <h1>Welcome to S-Tavern Community!</h1>
+    <p>Your one-stop destination for fun, events, and exclusive items.</p>
+    <!-- QR Code Image -->
+    <img src="https://www.imghippo.com/i/htWB5729zZU.png" alt="Join Our Discord" class="qr-code">
 </header>
 
 <section class="section">
@@ -123,12 +137,6 @@
     <h2>Download Plutonium</h2>
     <p>To play on our servers, you need the Plutonium client. Click the button below to download it:</p>
     <a href="https://plutonium.pw/docs/install/" class="download-button">Download Plutonium</a>
-</section>
-
-<section class="section">
-    <h2>Join Our Discord</h2>
-    <p>Join the conversation, meet other members, and stay updated on the latest news and events. Click the link below to join our Discord server:</p>
-    <a href="https://discord.gg/S-Tavern" class="discord-link">Join Our Discord</a>
 </section>
 
 <section class="section">
@@ -157,7 +165,7 @@
 </section>
 
 <footer class="footer">
-    <p>&copy; 2025 S-Tavern All rights reserved.</p>
+    <p>&copy; 2025 S-Tavern Community. All rights reserved.</p>
 </footer>
 
 </body>
